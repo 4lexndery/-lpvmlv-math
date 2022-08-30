@@ -2,9 +2,9 @@
 
 # Install 'math'
 
-in your terminal type:
-`npm i @lpvmlv/math`
-or:
+in your terminal type:\
+`npm i @lpvmlv/math`\
+or:\
 `yarn add @lpvmlv/math`
 
 # How to use 'math'
