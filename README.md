@@ -37,6 +37,9 @@ NOTICE - This package[^1] is still in developement, new functions will be added,
 8. `randomVal()`:
 > takes a random value from an array
 
+9. `fact()`:
+> a random fact about math
+
 example:
 
 ```js
@@ -46,14 +49,15 @@ const array = [
     /* array values */
 ]
 
-const add = pkg.add(10,10)
-const sub = pkg.sub(10,5)
-const mul = pkg.mul(2,10)
-const div = pkg.div(10,2)
-const mod = pkg.mod(4,3)
-const exp = pkg.exp(2,2)
+const ad = pkg.add(10,10)
+const su = pkg.sub(10,5)
+const mu = pkg.mul(2,10)
+const di = pkg.div(10,2)
+const mo = pkg.mod(4,3)
+const ex = pkg.exp(2,2)
 const ran = pkg.random(10,1)
 const ranV = pkg.randomVal(array)
+const fct = pkg.fact()
 
 console.log(add)
 console.log(sub)
@@ -63,6 +67,7 @@ console.log(mod)
 console.log(exp)
 console.log(ran)
 console.log(ranV)
+console.log(fct)
 ```
 
 outputs:
@@ -75,6 +80,7 @@ outputs:
 16
 * a random number between 1 and 10 *
 * a random value in array *
+* a random fact *
 ```
 
 now you have enough information about 'math', good luck :thumbsup:
