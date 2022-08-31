@@ -39,3 +39,18 @@ module.exports.randomVal = function (arr) {
 	let result = arr[Math.floor(Math.random() * arr.length)]
 	return result
 }
+
+module.exports.fact = function () {
+        function ran(arr) {
+                let result = arr[Math.floor(Math.random * arr.length)]
+                return result
+        }
+
+        let array = ["In a room of 23 people there’s a 50% chance that two people have the same birthday.
+
+","The word “hundred” comes from the old Norse term, “hundrath”, which actually means 120 and not 100.","Most mathematical symbols weren’t invented until the 16th century. Before that, equations were written in words.","“Forty” is the only number that is spelt with letters arranged in alphabetical order.
+
+","Conversely, “one” is the only number that is spelt with letters arranged in descending order."]
+
+        let res = ran(array)
+}
